@@ -5,8 +5,5 @@ int main(){
 		{		
 		printf("%d. defa tur\n",i);
 		}
-
-	
-	
 return 0;
 }
