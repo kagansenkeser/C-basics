@@ -4,7 +4,6 @@ matematik hesaplamaları
 *    carpma
 /    bolme
 %    bolumunden kalani verme
-islem onceligi normal matematik ile ayni siradadir
 ornek
 #include<stdio.h>
 int main()
@@ -28,3 +27,4 @@ printf("%d\n",x%y);
 16. satirda 15 ile 3 ü carpip  45
 17. satirda 15 i 3 e bölüp 5 
 18. satırda 15 i 3 e bölüp kalan olan 0 ı yazdırıyor
+islem onceligi normal matematik ile ayni siradadir
