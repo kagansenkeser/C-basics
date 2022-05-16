@@ -1,0 +1,18 @@
+#include <stdio.h>
+ 
+int main () {
+int sayilar[5] = {3, 4, 5, 6, 7};
+
+//diziler c dilinin en onemli konularindan biridir
+//cok fazla elemanla isimiz oldugu zaman bunlari tek tek tanimlamaktansa bunlari bir grup
+//diger bir deyisle bir dizide topluyoruz
+//c de dizi yazarken once dizinin turunu belirtmemiz lazim int float gibi ardindan dizinin adi
+//ve sonrasinda dizimizin kac elemanli olacagi
+//elemanlari suslu parantez icinde aralarina virgul koyarak yaziyoruz
+
+printf("%d",sayilar[0]);
+
+// dizinin ilk elamani 0 olarak gecek ikinci elamani ise bir ve boyle devam eder
+// herhangi bir elamani cagirirken onun sira numarasi ile cagirmaliyiz
+   return 0;
+}
