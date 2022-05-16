@@ -10,9 +10,15 @@ int sayilar[5] = {3, 4, 5, 6, 7};
 //ve sonrasinda dizimizin kac elemanli olacagi
 //elemanlari suslu parantez icinde aralarina virgul koyarak yaziyoruz
 
-printf("%d",sayilar[0]);
+printf("%d \n\n\n\n\n",sayilar[0]);
 
 // dizinin ilk elamani 0 olarak gecek ikinci elamani ise bir ve boyle devam eder
 // herhangi bir elamani cagirirken onun sira numarasi ile cagirmaliyiz
+
+//eger dizinin tamamini cagirmak istersek
+
+for(int i=0;i<5;i++){
+	printf("%d  ",sayilar[i]);
+}
    return 0;
 }
